@@ -1,0 +1,42 @@
+Tyler 
+William 
+Ramon
+Algorithm  for javaGameV2
+
+Delcare and initialize constants and variables
+int score = 0;
+string name, question1, question3, question4, question5;
+int menuChoice;
+
+Intro to User
+
+Prompt User for name
+Display the main menu
+menuChoice = Interger.parseInt(JOptionPane.showInputDialog("Welcome " + name+  "please selection an option :\n1) See Rules \n2 Play Game \n3) Exit"));
+Display Menu Options
+switch(menuChoice)
+Case 1: "Rules: \n1) Must be actual word answers"
+break;
+Case 2: "Rules: \n2) Must be actual word answers" ( Display rules to play game)
+break;
+Case 3 :(null, "Thank you for Playing our Game!!"
+System.Exit (0);
+default: 
+JOptionPane.showMessageDialog(null,"WHAT DID YOU DO?!?!?!"
+break;
+}
+Display question 1 and answer options	
+//decision structure for question 1
+Display question 2 and answer options
+//decision structure for question 2
+Display question 3 and answer options
+//descision structure for question 3
+Display question 4 and answer options 
+//decision structure for question 4
+Display question 5 and answer options
+//decision structure for question 4
+Display end message and score
+(null,"Thank you for playing our game!!\n You finished with a score of: " + score);
+
+
+

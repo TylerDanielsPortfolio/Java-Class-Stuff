@@ -1,0 +1,9 @@
+Sources:
+Definition of robotics:
+http://www.webopedia.com/TERM/R/robotics.html
+history of robots:
+https://cs.stanford.edu/people/eroberts/courses/soco/projects/1998-99/robotics/history.html
+https://www.sciencefriday.com/segments/science-diction-the-origin-of-the-word-robot/
+present state of robots
+https://www.robots.com/articles/viewing/robot-use-in-the-present-and-future
+future of robotics

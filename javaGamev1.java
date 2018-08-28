@@ -1,0 +1,49 @@
+package Javagamev1;
+/**
+ * William, Tyler, Ramon
+ * javaGamev1.java
+ * 
+ * May 18, 2017
+ */
+
+import javax.swing.JOptionPane;
+
+public class javaGamev1 {
+	
+	public static void main(String[] args) {
+		
+		//Displays an Introduction to the game
+		JOptionPane.showMessageDialog(null, "Welcome to our game!!");
+		
+		//Prompt the user for his/her name
+		JOptionPane.showInputDialog("Enter your name: ");
+		
+		//Displays the main menu
+		JOptionPane.showMessageDialog(null, "Main Menu \n1) See Rules \n2) Play Game \n3) Exit");
+		
+		//Displays the rules for the game
+		JOptionPane.showMessageDialog(null, "Rules\n1) Must be one word answers.");
+		
+		//Displays the first question
+		JOptionPane.showInputDialog("What is RAM divided into...? \n1) Byte \n2) Bit");
+		
+		//Displays the Correct answer to first question
+		JOptionPane.showMessageDialog(null, "The correct answer is: Byte");
+		
+		//Displays the second question
+		JOptionPane.showInputDialog("What are the set of rules defining how a java program is written and interpreted... ? \n Grammer \n Syntax");
+		
+		//Displays the Correct answer to second question
+		JOptionPane.showMessageDialog(null, "The correct answer is: Syntax");
+		
+		//Displays the third question
+		JOptionPane.showInputDialog("What is the routine process of locating and removing prgram bugs, errors or abnormalities...? \nHacking \n Debugging");
+		
+		//Displays the Correct answer to third question
+		JOptionPane.showMessageDialog(null, "The correct answer is:Debugging");
+		
+		//Display End Message
+		JOptionPane.showMessageDialog(null,"Thank you for playing our game!!");
+	}
+
+}
